@@ -1,0 +1,11 @@
+C:\Users\Student\workspace\xhively-c\Side Project\TicTakToe\TicTakToe\bin\Debug\netcoreapp3.1\TicTakToe.exe
+C:\Users\Student\workspace\xhively-c\Side Project\TicTakToe\TicTakToe\bin\Debug\netcoreapp3.1\TicTakToe.deps.json
+C:\Users\Student\workspace\xhively-c\Side Project\TicTakToe\TicTakToe\bin\Debug\netcoreapp3.1\TicTakToe.runtimeconfig.json
+C:\Users\Student\workspace\xhively-c\Side Project\TicTakToe\TicTakToe\bin\Debug\netcoreapp3.1\TicTakToe.runtimeconfig.dev.json
+C:\Users\Student\workspace\xhively-c\Side Project\TicTakToe\TicTakToe\bin\Debug\netcoreapp3.1\TicTakToe.dll
+C:\Users\Student\workspace\xhively-c\Side Project\TicTakToe\TicTakToe\bin\Debug\netcoreapp3.1\TicTakToe.pdb
+C:\Users\Student\workspace\xhively-c\Side Project\TicTakToe\TicTakToe\obj\Debug\netcoreapp3.1\TicTakToe.csprojAssemblyReference.cache
+C:\Users\Student\workspace\xhively-c\Side Project\TicTakToe\TicTakToe\obj\Debug\netcoreapp3.1\TicTakToe.AssemblyInfoInputs.cache
+C:\Users\Student\workspace\xhively-c\Side Project\TicTakToe\TicTakToe\obj\Debug\netcoreapp3.1\TicTakToe.AssemblyInfo.cs
+C:\Users\Student\workspace\xhively-c\Side Project\TicTakToe\TicTakToe\obj\Debug\netcoreapp3.1\TicTakToe.dll
+C:\Users\Student\workspace\xhively-c\Side Project\TicTakToe\TicTakToe\obj\Debug\netcoreapp3.1\TicTakToe.pdb

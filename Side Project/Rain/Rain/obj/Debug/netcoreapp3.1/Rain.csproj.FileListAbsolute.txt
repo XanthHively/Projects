@@ -1,0 +1,11 @@
+C:\Users\Student\workspace\xhively-c\Side Project\Rain\Rain\bin\Debug\netcoreapp3.1\Rain.exe
+C:\Users\Student\workspace\xhively-c\Side Project\Rain\Rain\bin\Debug\netcoreapp3.1\Rain.deps.json
+C:\Users\Student\workspace\xhively-c\Side Project\Rain\Rain\bin\Debug\netcoreapp3.1\Rain.runtimeconfig.json
+C:\Users\Student\workspace\xhively-c\Side Project\Rain\Rain\bin\Debug\netcoreapp3.1\Rain.runtimeconfig.dev.json
+C:\Users\Student\workspace\xhively-c\Side Project\Rain\Rain\bin\Debug\netcoreapp3.1\Rain.dll
+C:\Users\Student\workspace\xhively-c\Side Project\Rain\Rain\bin\Debug\netcoreapp3.1\Rain.pdb
+C:\Users\Student\workspace\xhively-c\Side Project\Rain\Rain\obj\Debug\netcoreapp3.1\Rain.csprojAssemblyReference.cache
+C:\Users\Student\workspace\xhively-c\Side Project\Rain\Rain\obj\Debug\netcoreapp3.1\Rain.AssemblyInfoInputs.cache
+C:\Users\Student\workspace\xhively-c\Side Project\Rain\Rain\obj\Debug\netcoreapp3.1\Rain.AssemblyInfo.cs
+C:\Users\Student\workspace\xhively-c\Side Project\Rain\Rain\obj\Debug\netcoreapp3.1\Rain.dll
+C:\Users\Student\workspace\xhively-c\Side Project\Rain\Rain\obj\Debug\netcoreapp3.1\Rain.pdb
