@@ -1,0 +1,9 @@
+C:\Users\Student\workspace\Projects\portfolio Project\Platformer\Platformer\bin\Debug\Platformer.exe.config
+C:\Users\Student\workspace\Projects\portfolio Project\Platformer\Platformer\bin\Debug\Platformer.exe
+C:\Users\Student\workspace\Projects\portfolio Project\Platformer\Platformer\bin\Debug\Platformer.pdb
+C:\Users\Student\workspace\Projects\portfolio Project\Platformer\Platformer\obj\Debug\Platformer.csprojAssemblyReference.cache
+C:\Users\Student\workspace\Projects\portfolio Project\Platformer\Platformer\obj\Debug\Platformer.Properties.Resources.resources
+C:\Users\Student\workspace\Projects\portfolio Project\Platformer\Platformer\obj\Debug\Platformer.csproj.GenerateResource.cache
+C:\Users\Student\workspace\Projects\portfolio Project\Platformer\Platformer\obj\Debug\Platformer.exe
+C:\Users\Student\workspace\Projects\portfolio Project\Platformer\Platformer\obj\Debug\Platformer.pdb
+C:\Users\Student\workspace\Projects\portfolio Project\Platformer\Platformer\obj\Debug\Platformer.Platformer.resources

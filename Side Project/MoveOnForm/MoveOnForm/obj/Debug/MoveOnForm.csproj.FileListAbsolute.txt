@@ -7,3 +7,12 @@ C:\Users\Student\workspace\xhively-c\Side Project\MoveOnForm\MoveOnForm\obj\Debu
 C:\Users\Student\workspace\xhively-c\Side Project\MoveOnForm\MoveOnForm\obj\Debug\MoveOnForm.csproj.GenerateResource.cache
 C:\Users\Student\workspace\xhively-c\Side Project\MoveOnForm\MoveOnForm\obj\Debug\MoveOnForm.exe
 C:\Users\Student\workspace\xhively-c\Side Project\MoveOnForm\MoveOnForm\obj\Debug\MoveOnForm.pdb
+C:\Users\Student\workspace\Projects\Side Project\MoveOnForm\MoveOnForm\bin\Debug\MoveOnForm.exe.config
+C:\Users\Student\workspace\Projects\Side Project\MoveOnForm\MoveOnForm\bin\Debug\MoveOnForm.exe
+C:\Users\Student\workspace\Projects\Side Project\MoveOnForm\MoveOnForm\bin\Debug\MoveOnForm.pdb
+C:\Users\Student\workspace\Projects\Side Project\MoveOnForm\MoveOnForm\obj\Debug\MoveOnForm.csprojAssemblyReference.cache
+C:\Users\Student\workspace\Projects\Side Project\MoveOnForm\MoveOnForm\obj\Debug\MoveOnForm.Form1.resources
+C:\Users\Student\workspace\Projects\Side Project\MoveOnForm\MoveOnForm\obj\Debug\MoveOnForm.Properties.Resources.resources
+C:\Users\Student\workspace\Projects\Side Project\MoveOnForm\MoveOnForm\obj\Debug\MoveOnForm.csproj.GenerateResource.cache
+C:\Users\Student\workspace\Projects\Side Project\MoveOnForm\MoveOnForm\obj\Debug\MoveOnForm.exe
+C:\Users\Student\workspace\Projects\Side Project\MoveOnForm\MoveOnForm\obj\Debug\MoveOnForm.pdb
