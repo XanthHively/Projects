@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Student\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Xanth\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Student\\workspace\\xhively-c\\portfolio Project\\Maze\\Maze\\Maze.csproj",
+      "projectUniqueName": "C:\\Users\\Xanth\\Workspace\\Projects\\portfolio Project\\Maze\\Maze\\Maze.csproj",
       "projectName": "Maze",
-      "projectPath": "C:\\Users\\Student\\workspace\\xhively-c\\portfolio Project\\Maze\\Maze\\Maze.csproj",
-      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Student\\workspace\\xhively-c\\portfolio Project\\Maze\\Maze\\obj\\",
+      "projectPath": "C:\\Users\\Xanth\\Workspace\\Projects\\portfolio Project\\Maze\\Maze\\Maze.csproj",
+      "packagesPath": "C:\\Users\\Xanth\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Xanth\\Workspace\\Projects\\portfolio Project\\Maze\\Maze\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Xanth\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -62,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

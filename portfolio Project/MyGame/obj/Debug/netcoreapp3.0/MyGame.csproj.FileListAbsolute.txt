@@ -1,0 +1,48 @@
+C:\Users\Xanth\Workspace\MyGame\obj\Debug\netcoreapp3.0\MyGame.csprojAssemblyReference.cache
+C:\Users\Xanth\Workspace\MyGame\obj\Debug\netcoreapp3.0\MyGame.AssemblyInfoInputs.cache
+C:\Users\Xanth\Workspace\MyGame\obj\Debug\netcoreapp3.0\MyGame.AssemblyInfo.cs
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\Content\ball.xnb
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\MyGame.exe
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\MyGame.deps.json
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\MyGame.runtimeconfig.json
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\MyGame.runtimeconfig.dev.json
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\MyGame.dll
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\MyGame.pdb
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\MonoGame.Framework.dll
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\SDL2.dll
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\Xanth\Workspace\MyGame\obj\Debug\netcoreapp3.0\MyGame.csproj.CopyComplete
+C:\Users\Xanth\Workspace\MyGame\obj\Debug\netcoreapp3.0\MyGame.dll
+C:\Users\Xanth\Workspace\MyGame\obj\Debug\netcoreapp3.0\MyGame.pdb
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\Content\stone.xnb
+C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\Content\chunk.xnb
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\ball.xnb
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\chunk.xnb
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\stone.xnb
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\MyGame.exe
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\MyGame.deps.json
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\MyGame.runtimeconfig.json
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\MyGame.runtimeconfig.dev.json
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\MyGame.dll
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\MyGame.pdb
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\MonoGame.Framework.dll
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\SDL2.dll
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\obj\Debug\netcoreapp3.0\MyGame.csprojAssemblyReference.cache
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\obj\Debug\netcoreapp3.0\MyGame.AssemblyInfoInputs.cache
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\obj\Debug\netcoreapp3.0\MyGame.AssemblyInfo.cs
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\obj\Debug\netcoreapp3.0\MyGame.csproj.CopyComplete
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\obj\Debug\netcoreapp3.0\MyGame.dll
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\obj\Debug\netcoreapp3.0\MyGame.pdb
