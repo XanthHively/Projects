@@ -22,7 +22,6 @@ C:\Users\Xanth\Workspace\MyGame\obj\Debug\netcoreapp3.0\MyGame.dll
 C:\Users\Xanth\Workspace\MyGame\obj\Debug\netcoreapp3.0\MyGame.pdb
 C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\Content\stone.xnb
 C:\Users\Xanth\Workspace\MyGame\bin\Debug\netcoreapp3.0\Content\chunk.xnb
-C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\ball.xnb
 C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\chunk.xnb
 C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\stone.xnb
 C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\MyGame.exe
@@ -46,3 +45,6 @@ C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\obj\Debug\netcoreapp3
 C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\obj\Debug\netcoreapp3.0\MyGame.csproj.CopyComplete
 C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\obj\Debug\netcoreapp3.0\MyGame.dll
 C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\obj\Debug\netcoreapp3.0\MyGame.pdb
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Grass.xnb
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Cloud.xnb
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Player_Atlas.xnb

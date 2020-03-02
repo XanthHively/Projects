@@ -1,9 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows;
 
 namespace MyGame.Sprites
 {
@@ -13,7 +10,7 @@ namespace MyGame.Sprites
         public Vector2 Position;
         public Color Colour = Color.White;
 
-        public Rectangle BoundingBox
+        public virtual Rectangle BoundingBox
         {
             get
             {
