@@ -23,7 +23,7 @@ namespace MyGame.Textures
         public void Update(int index,int length)
         {
             currentFrame += .25;
-            if (currentFrame < index || currentFrame >= index + length-1)
+            if (currentFrame < index || currentFrame >= index + length)
                 currentFrame = index;
         }
         public void Draw(SpriteBatch spriteBatch, Vector2 location)

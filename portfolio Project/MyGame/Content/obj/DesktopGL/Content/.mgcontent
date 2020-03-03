@@ -8,9 +8,11 @@
     <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/Cloud.png</File>
     <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/Grass.jpg</File>
     <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/Player_Atlas.png</File>
+    <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/Quit.jpg</File>
     <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/stone.jpg</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

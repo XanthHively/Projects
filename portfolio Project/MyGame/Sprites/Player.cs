@@ -13,6 +13,7 @@ namespace MyGame.Sprites
         public Vector2 HorizontalPosition;
         public float Speed;
 
+        bool wasMovingLeft = false;
         int jumpVelocity = 0;
         public int jumpPower;
         bool onGround = false;
@@ -87,22 +88,35 @@ namespace MyGame.Sprites
             if (Keyboard.GetState().IsKeyDown(Keys.A))
             {
                 HorizontalPosition.X = -Speed;
-                if(onGround)
-                    atlas.Update(14, 11);
+                wasMovingLeft = true;
+                if (onGround)
+                    atlas.Update(13, 11);
+                else atlas.Update(25, 1);
             }
                
             else if (Keyboard.GetState().IsKeyDown(Keys.D))
             {
                 HorizontalPosition.X = Speed;
-                if(onGround)
-                    atlas.Update(1, 11);
+                wasMovingLeft = false;
+                if (onGround)
+                    atlas.Update(0, 11);
+                else atlas.Update(12, 1);
             }
                 
-
-            if (Keyboard.GetState().IsKeyDown(Keys.Space) && onGround)
+            if (onGround && Keyboard.GetState().IsKeyDown(Keys.Space))
             {
                 jumpVelocity = -jumpPower;
                 onGround = false;
+                if(wasMovingLeft)
+                    atlas.Update(25, 1);
+                else atlas.Update(12, 1);
+            }
+            
+            if(onGround && Keyboard.GetState().IsKeyUp(Keys.D) && Keyboard.GetState().IsKeyUp(Keys.A))
+            {
+                if (wasMovingLeft)
+                    atlas.Update(24, 1);
+                else atlas.Update(11, 1);
             }
         }
         private void Jump()

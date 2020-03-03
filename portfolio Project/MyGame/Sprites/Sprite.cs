@@ -8,7 +8,7 @@ namespace MyGame.Sprites
     {
         protected Texture2D texture;
         public Vector2 Position;
-        public Color Colour = Color.White;
+        public Color SetColor = Color.White;
 
         public virtual Rectangle BoundingBox
         {
@@ -24,7 +24,7 @@ namespace MyGame.Sprites
         }
         public virtual void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(texture, Position, Colour);
+            spriteBatch.Draw(texture, Position, SetColor);
         }
     }
 }

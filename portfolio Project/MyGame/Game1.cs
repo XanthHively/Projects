@@ -4,6 +4,7 @@ using Microsoft.Xna.Framework.Input;
 using MyGame.Sprites;
 using System;
 using System.Collections.Generic;
+using MyGame.Menu;
 
 namespace MyGame
 {
@@ -40,14 +41,15 @@ namespace MyGame
 
             Texture2D chunk_Of_Stone = Content.Load<Texture2D>("chunk");
             Texture2D ground_grass_texture = Content.Load<Texture2D>("Grass");
-
             Texture2D cloud = Content.Load<Texture2D>("Cloud");
+            Texture2D ExitTexture = Content.Load<Texture2D>("Quit");
 
             player = new Player(Player_Atlas)
             {
                 Position = new Vector2(935, 600),
                 Speed = 7,
-                jumpPower = 25
+                jumpPower = 25,
+                SetColor = Color.Black
             };
 
             solid_Sprites = new List<Sprite>()
@@ -62,8 +64,10 @@ namespace MyGame
                 new Sprite(ground_grass_texture){Position = new Vector2(-1920, 1010)}
             };
 
-            decoration_Sprites = new List<Sprite>();
+            Sprite exit = new Sprite(ExitTexture);
+            ExitMenu exitMenu = new ExitMenu(exit);
 
+            decoration_Sprites = new List<Sprite>();
             var random = new Random();
             int cloudPlacement = -2500;
             for (int i = 0; i < 20; i++)
@@ -74,7 +78,7 @@ namespace MyGame
 
         protected override void Update(GameTime gameTime)
         {
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
+            if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
             Vector2 HorizontalPosition = player.Update(solid_Sprites);

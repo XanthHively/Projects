@@ -48,3 +48,4 @@ C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\obj\Debug\netcoreapp3
 C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Grass.xnb
 C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Cloud.xnb
 C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Player_Atlas.xnb
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Quit.xnb
