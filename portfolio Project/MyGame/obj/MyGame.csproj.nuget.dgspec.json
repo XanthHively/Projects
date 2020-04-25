@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\Xanth\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Xanth\\Workspace\\Projects\\portfolio Project\\MyGame\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Xanth\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

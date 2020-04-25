@@ -8,7 +8,7 @@
           "build/MonoGame.Content.Builder.targets": {}
         }
       },
-      "MonoGame.Framework.DesktopGL.Core/3.8.0.2": {
+      "MonoGame.Framework.DesktopGL.Core/3.8.0.13": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/MonoGame.Framework.dll": {}
@@ -71,10 +71,10 @@
         "tasks/netstandard2.0/MonoGame.Content.Builder.dll"
       ]
     },
-    "MonoGame.Framework.DesktopGL.Core/3.8.0.2": {
-      "sha512": "5Vsqq9lvFv4pezl+IoSnbGdFMvArUyWtehMuDx2UHirEImbxSJ0kn2u0xxbHiAazs/Gs+09aXdlRoCD3v8Xy3w==",
+    "MonoGame.Framework.DesktopGL.Core/3.8.0.13": {
+      "sha512": "cMsc/UZFS8Uk/a1RDc8OZ9Z2EXrEglWGcZGSvPJiWEcUC5Oo9K9uoZXaprvesM3YbyT1ItzqS4jXjTDR4qT4WA==",
       "type": "package",
-      "path": "monogame.framework.desktopgl.core/3.8.0.2",
+      "path": "monogame.framework.desktopgl.core/3.8.0.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -83,7 +83,7 @@
         "lib/net452/MonoGame.Framework.xml",
         "lib/netstandard2.0/MonoGame.Framework.dll",
         "lib/netstandard2.0/MonoGame.Framework.xml",
-        "monogame.framework.desktopgl.core.3.8.0.2.nupkg.sha512",
+        "monogame.framework.desktopgl.core.3.8.0.13.nupkg.sha512",
         "monogame.framework.desktopgl.core.nuspec",
         "runtimes/linux-x64/native/libSDL2-2.0.so.0",
         "runtimes/linux-x64/native/libopenal.so.1",
@@ -103,7 +103,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Xanth\\.nuget\\packages\\": {}
+    "C:\\Users\\Xanth\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -114,6 +115,9 @@
       "packagesPath": "C:\\Users\\Xanth\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Xanth\\Workspace\\Projects\\portfolio Project\\MyGame\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\Xanth\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

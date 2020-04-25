@@ -48,4 +48,11 @@ C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\obj\Debug\netcoreapp3
 C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Grass.xnb
 C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Cloud.xnb
 C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Player_Atlas.xnb
-C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Quit.xnb
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Menu\Inventory.xnb
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Menu\Quit.xnb
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Menu\QuitSelectBox.xnb
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Menu\InventorySelect.xnb
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Menu\ExitBackground.xnb
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Menu\Hotbar.xnb
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Text.xnb
+C:\Users\Xanth\Workspace\Projects\portfolio Project\MyGame\bin\Debug\netcoreapp3.0\Content\Items\ItemLog.xnb

@@ -20,19 +20,28 @@ namespace MyGame.Sprites
 
         TextureAtlas atlas;
 
+        int CoordinatesX = 0;
+
         private int playerWidth = 60;
         private int playerHeight = 155;
+        private int spawnX = 930;
+        private int spawnY = 855;
         public override Rectangle BoundingBox
         {
-            get
-            {
-                return new Rectangle((int)Position.X, (int)Position.Y, playerWidth, playerHeight);
-            }
+            get{ return new Rectangle((int)Position.X, (int)Position.Y, playerWidth, playerHeight); }
+        }
+        public string Coordinates
+        {
+            get { return $"X:{CoordinatesX/50} Y:{-(int)(Position.Y - spawnY)/50}"; }
         }
 
         public Player(Texture2D Player_Atlas)
       : base(Player_Atlas)
         {
+            Position = new Vector2(spawnX, spawnY);
+            Speed = 7;
+            jumpPower = 25;
+            SetColor = Color.Black;
             atlas = new TextureAtlas(Player_Atlas, 2, 13);
         }
 
@@ -76,6 +85,7 @@ namespace MyGame.Sprites
 
             VerticalPosition = Vector2.Zero;
 
+            CoordinatesX += (int)HorizontalPosition.X;
             return HorizontalPosition;
         }
         public override void Draw(SpriteBatch spriteBatch)

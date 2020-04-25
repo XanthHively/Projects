@@ -7,11 +7,25 @@
     <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/chunk.jpg</File>
     <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/Cloud.png</File>
     <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/Grass.jpg</File>
+    <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/Items/ItemLog.png</File>
+    <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/Menu/ExitBackground.jpg</File>
+    <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/Menu/Hotbar.jpg</File>
+    <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/Menu/Inventory.jpg</File>
+    <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/Menu/InventorySelect.jpg</File>
+    <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/Menu/Quit.jpg</File>
+    <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/Menu/QuitSelectBox.png</File>
     <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/Player_Atlas.png</File>
-    <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/Quit.jpg</File>
     <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/stone.jpg</File>
+    <File>C:/Users/Xanth/Workspace/Projects/portfolio Project/MyGame/Content/Text.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
