@@ -14,7 +14,7 @@ namespace MyGame.Model
         public string Name { get; set; }
         public int Quantity { get; set; }
         public int Index { get; set; }
-        public bool InHand { get; set; }
+        //public bool InHand { get; set; }
         public Item(Texture2D texture, string name, int index, Vector2 position)
         {
             ItemSprite = new Sprite(texture) { Position = position};
@@ -25,7 +25,7 @@ namespace MyGame.Model
         public void SetIndex(int index, Vector2 position)
         {
             Index = index;
-            InHand = false;
+            //InHand = false;
             ItemSprite.Position = position;
         }
     }

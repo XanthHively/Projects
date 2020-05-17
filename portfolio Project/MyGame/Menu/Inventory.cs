@@ -5,7 +5,6 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using MyGame.Sprites;
-using MyGame.Textures;
 using MyGame.Model;
 
 namespace MyGame.Menu
@@ -20,8 +19,9 @@ namespace MyGame.Menu
         SpriteFont text;
 
         private bool oldStateE, oldStateClick;
-        private bool itemInHand = false;
-        int inHandIndex = 0;
+
+        private bool areWeHoldingItem = false;
+        Item itemInHand;
         bool Open = false;
         public Inventory(Sprite inventorySprite,Sprite hotbarSprite,Texture2D inventorySelect, Dictionary<string, Texture2D> itemTextures, SpriteFont text)
         {
@@ -41,23 +41,10 @@ namespace MyGame.Menu
                 if (Open)
                 {
                     Open = false;
-                    if (itemInHand)
+                    if (areWeHoldingItem)
                     {
-                        itemInHand = false;
-                        foreach(Item item in items)
-                        {
-                            if(item.InHand == true)
-                            {
-                                item.InHand = false;
-                                if (items.Exists(x => x.Index == inHandIndex))
-                                {
-                                    items.Find(x => x.Index == inHandIndex).Quantity += item.Quantity;
-                                    items.Remove(item);
-                                }
-                                else item.SetIndex(inHandIndex, selectSprites[inHandIndex].Position);
-                                break;
-                            }
-                        }
+                        addItemToFirstAvailableSlot(itemInHand);
+                        areWeHoldingItem = false;
                     }
                 }
                 else Open = true;
@@ -70,107 +57,79 @@ namespace MyGame.Menu
                 bool leftClick = mouseState.LeftButton == ButtonState.Pressed;
                 bool rightClick = mouseState.RightButton == ButtonState.Pressed;
                 bool newStateClick = leftClick || rightClick;
+
+                //trigers oance when click is detected
                 if (newStateClick && !oldStateClick)
                 {
-                    for(int i = 0;i < selectSprites.Count; i++)
+                    for (int selectedIndex = 0; selectedIndex < selectSprites.Count; selectedIndex++)
                     {
-                        if (selectSprites[i].BoundingBox.Left < mouseState.X && selectSprites[i].BoundingBox.Right > mouseState.X && selectSprites[i].BoundingBox.Top < mouseState.Y && selectSprites[i].BoundingBox.Bottom > mouseState.Y)
+                        //is cursor over this inventory slot
+                        if (selectSprites[selectedIndex].BoundingBox.Left < mouseState.X && selectSprites[selectedIndex].BoundingBox.Right > mouseState.X 
+                            && selectSprites[selectedIndex].BoundingBox.Top < mouseState.Y && selectSprites[selectedIndex].BoundingBox.Bottom > mouseState.Y)
                         {
-                            if (itemInHand)
+                            if (areWeHoldingItem) //--------------item in hand when player clicked--------------------------------------------//
                             {
-                                if(!items.Exists(x => x.Index == i))//empty slot with item in hand
+                                Item selectedItem = items.Find(x => x.Index == selectedIndex);
+                                if (leftClick)
                                 {
-                                    if (leftClick)
+                                    //is there an item in this slot
+                                    if (selectedItem != null && selectedItem.Name == itemInHand.Name)
                                     {
-                                        items.Find(x => x.InHand == true).SetIndex(i, selectSprites[i].Position);
-                                        itemInHand = false;
+                                        selectedItem.Quantity += itemInHand.Quantity;
+                                        areWeHoldingItem = false;
                                     }
-                                    else//rightclick
+                                    else if (selectedItem == null) //no item in slot
                                     {
-                                        foreach(Item item in items)
-                                        {
-                                            if (item.InHand == true)
-                                            {
-                                                items.Add(new Item(itemTextures[item.Name], item.Name, i, selectSprites[i].Position));
-                                                item.Quantity--;
-                                                if(item.Quantity == 0)
-                                                {
-                                                    items.Remove(item);
-                                                    itemInHand = false;
-                                                }
-                                                break;
-                                            }
-                                        }
+                                        itemInHand.SetIndex(selectedIndex, selectSprites[selectedIndex].Position);
+                                        items.Add(itemInHand);
+                                        areWeHoldingItem = false;
                                     }
                                 }
-                                else//acupied slot with item in hand
+                                if (rightClick)
                                 {
-                                    if (leftClick)
+                                    //is there an item in this slot
+                                    if (selectedItem != null && selectedItem.Name == itemInHand.Name)
                                     {
-                                        items.Find(x => x.Index == i).Quantity += items.Find(x => x.InHand == true).Quantity;
-                                        items.Remove(items.Find(x => x.InHand == true));
-                                        itemInHand = false;
+                                        selectedItem.Quantity += 1;
+                                        itemInHand.Quantity -= 1;
+                                        if(itemInHand.Quantity == 0)
+                                            areWeHoldingItem = false;
                                     }
-                                    else//rightclick
+                                    else if (selectedItem == null) //no item in slot
                                     {
-                                        items.Find(x => x.Index == i).Quantity++;
-                                        foreach(Item item in items)
-                                        {
-                                            if(item.InHand == true)
-                                            {
-                                                item.Quantity--;
-                                                if (item.Quantity == 0)
-                                                {
-                                                    items.Remove(item);
-                                                    itemInHand = false;
-                                                }
-                                                break;
-                                            }
-                                        }
+                                        items.Add(new Item(itemTextures[itemInHand.Name], itemInHand.Name, selectedIndex, selectSprites[selectedIndex].Position)
+                                        { Quantity = 1 });
+                                        itemInHand.Quantity -= 1;
+                                        if (itemInHand.Quantity == 0)
+                                            areWeHoldingItem = false;
                                     }
                                 }
                             }
-                            else//empty hand
+                            else //----------------------- no item in hand when player clicked------------------------------------------//
                             {
-                                if (items.Exists(x => x.Index == i))
+                                //is there an item in this slot
+                                if (items.Exists(x => x.Index == selectedIndex))
                                 {
-                                    if (leftClick)//take full stack
+                                    Item selectedItem = items.Find(x => x.Index == selectedIndex);
+                                    areWeHoldingItem = true;
+                                    if (leftClick)
                                     {
-                                        foreach (Item item in items)
-                                        {
-                                            if (item.Index == i)
-                                            {
-                                                item.InHand = true;
-                                                inHandIndex = i;
-                                                item.Index = -1;
-                                                break;
-                                            }
-                                        }
-                                        itemInHand = true;
+                                        itemInHand = selectedItem;
+                                        items.Remove(itemInHand);
                                     }
-                                    else//rightclick take half stack
+                                    if (rightClick)
                                     {
-                                        foreach (Item item in items)
+                                        if (selectedItem.Quantity == 1)
                                         {
-                                            if(item.Index == i)
-                                            {
-                                                if(item.Quantity == 1)
-                                                {
-                                                    item.InHand = true;
-                                                    itemInHand = true;
-                                                    break;
-                                                }
-                                                else
-                                                {
-                                                    int newStackCount = item.Quantity / 2;
-                                                    item.Quantity -= newStackCount;
-                                                    items.Add(new Item(itemTextures[item.Name], item.Name, i, selectSprites[i].Position) 
-                                                    { Quantity = newStackCount,InHand = true});
-                                                    itemInHand = true;
-                                                    inHandIndex = i;
-                                                    break;
-                                                }
-                                            }
+                                            itemInHand = selectedItem;
+                                            items.Remove(itemInHand);
+                                        }
+                                        else
+                                        {
+                                            int newStackCount = selectedItem.Quantity / 2;
+                                            selectedItem.Quantity -= newStackCount;
+                                            itemInHand = new Item(itemTextures[selectedItem.Name], selectedItem.Name, 99, selectSprites[selectedIndex].Position)
+                                            { Quantity = newStackCount };
                                         }
                                     }
                                 }
@@ -181,7 +140,7 @@ namespace MyGame.Menu
                 }
                 oldStateClick = newStateClick;
 
-                if (itemInHand) items.Find(x => x.InHand == true).ItemSprite.Position = new Vector2(mouseState.X, mouseState.Y);
+                if (areWeHoldingItem) itemInHand.ItemSprite.Position = new Vector2(mouseState.X, mouseState.Y);
             }
         }
         public void Draw(SpriteBatch spriteBatch)
@@ -199,13 +158,10 @@ namespace MyGame.Menu
                         break;
                     }
                 }
-                if (items.Count > 0)
-                {
-                    foreach (Item item in items)
-                        if (!item.InHand) DrawItem(item, spriteBatch);
-                    foreach (Item item in items)
-                        if (item.InHand) DrawItem(item, spriteBatch);
-                }
+                foreach (Item item in items)
+                    DrawItem(item, spriteBatch);
+                if(areWeHoldingItem)
+                    DrawItem(itemInHand, spriteBatch);
             }
         }
         private void DrawItem(Item item, SpriteBatch spriteBatch)
@@ -235,14 +191,21 @@ namespace MyGame.Menu
                 }
             }
         }
-        private void SetItemLocations()
+        public void addItemToFirstAvailableSlot(Item item)
         {
-            //set items to apropriate slots on startup
-            if (items.Count > 0)
+            for (int i = 0; i < selectSprites.Count; i++)
             {
-                foreach (Item item in items)
+                Item selectedItem = items.Find(x => x.Index == i);
+                if (selectedItem != null && selectedItem.Name == item.Name)
                 {
-                    item.ItemSprite.Position = selectSprites[item.Index].Position;
+                    selectedItem.Quantity += item.Quantity;
+                    break;
+                }
+                else if (selectedItem == null) //no item in slot
+                {
+                    item.SetIndex(i, selectSprites[i].Position);
+                    items.Add(item);
+                    break;
                 }
             }
         }
